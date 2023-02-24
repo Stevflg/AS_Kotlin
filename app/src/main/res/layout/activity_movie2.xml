@@ -6,6 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".Movie2">
 
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="117dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="RAMBO"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="319dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Sinopsis"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="366dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Cuando John Rambo, un veterano boina verde, va a visitar a un viejo compañero de armas, se entera de que ha muerto víctima de las secuelas de la guerra. Algunos días después, la policía lo detiene por vagabundo y se ensaña con él. Entonces recuerda las torturas que sufrió en Vietnam y reacciona violentamente. (FILMAFFINITY)"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
     <Button
         android:id="@+id/return_menu2"
         android:layout_width="wrap_content"
@@ -19,4 +67,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="326dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/return_menu2"
+        app:srcCompat="@drawable/rambo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

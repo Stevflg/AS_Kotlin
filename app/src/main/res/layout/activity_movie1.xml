@@ -6,6 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".Movie1">
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="360dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Desde ese momento, el espíritu de Rika persigue a Yuta. Para controlar sus acciones, este último se une a la escuela de jujutsu del hechicero Satoru Gojo.  "
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="360dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Película basada en un manga de Gege Akutami (“Jujutsu Kaisen Vol. 0”, Norma Editorial), llevado previamente a la televisión en una serie del año 2020"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
     <Button
         android:id="@+id/return_menu"
         android:layout_width="wrap_content"
@@ -19,4 +50,64 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="351dp"
+        android:layout_height="253dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/return_menu"
+        app:srcCompat="@drawable/jujutsu" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="124dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="JUJUTSU KAISEN"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="319dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Sinopsis"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="361dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Rika Orimoto, la amiga del adolescente Yuta Okkotsu con la que se había prometido casarse cuando crecieran, falleció en un accidente."
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,6 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".Movie4">
 
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="352dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="En esta película Scott Adkins vuelve a encarnar a Boyka (el malo de Undisputed 2), que busca la libertad. Cuando se le ofrece la oportunidad de participar en un campeonato clandestino entre los 8 mejores luchadores reclusos del mundo, ni lo dudará."
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="319dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Sinopsis"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="117dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="INVICTO III"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
     <Button
         android:id="@+id/return_menu4"
         android:layout_width="wrap_content"
@@ -19,4 +68,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="195dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/return_menu4"
+        app:srcCompat="@drawable/invicto_iii" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

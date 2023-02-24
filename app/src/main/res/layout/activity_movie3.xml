@@ -6,6 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".Movie3">
 
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="352dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Your Name es el lanzamiento internacional definitivo de Makoto Shinkai, tras una larga carrera centrada en el cine de animación. Su película ha recibido aplausos generalizados y ha arrasado en la taquilla de su país natal, aparte de los múltiples galardones recibidos en su andadura, incluso en Occidente."
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="343dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Your Name es un ejercicio de fantasía y magia aferrado con convicción a la vida real, presentada a través de personajes maravillosos, llenos de personalidad.  Los protagonistas, Taki y Mitsuha, son dos completos desconocidos. La cosa es que, a pesar de eso, están destinados a entenderse. Durante el sueño, ambos adolescentes intercambian sus cuerpos, con resultados impredecibles en la vida de ambos."
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="117dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="YOUR NAME"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="319dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Sinopsis"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
     <Button
         android:id="@+id/return_menu3"
         android:layout_width="wrap_content"
@@ -19,4 +85,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="325dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/return_menu3"
+        app:srcCompat="@drawable/your_name" />
 </androidx.constraintlayout.widget.ConstraintLayout>
